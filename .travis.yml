@@ -19,7 +19,7 @@ services: docker
 
 env:
   global:
-    - CHEF_LICENSE="accept-no-persist"
+  - CHEF_LICENSE="accept-no-persist"
   matrix:
   - INSTANCE=resources-centos-6
   - INSTANCE=resources-centos-7
